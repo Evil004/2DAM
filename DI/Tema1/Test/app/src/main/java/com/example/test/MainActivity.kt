@@ -18,13 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TestTheme {
                 // A surface container using the 'background' color from the theme
-                Column(
-                    modifier = Modifier.fillMaxSize(),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.Center
-                ) {
-                    PlayJuegos()
-                }
+                PlayJuegos()
             }
         }
     }

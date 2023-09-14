@@ -13,5 +13,7 @@ fun printUI(elementsInPath: Array<String>){
     println("-------------------------")
     println("0.    ../")
 
-    elementsInPath.forEach { file -> println(file) }
+    for (i in 0..<elementsInPath.size){
+        println("${i+1}     ./${elementsInPath[i]}")
+    }
 }
