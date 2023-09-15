@@ -17,21 +17,23 @@ import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.NavHostController
 import com.example.test.ui.theme.Gray90
 import com.example.test.ui.theme.White
 
+
 @Composable
-fun PlayJuegos() {
+fun MenuPlayJuegos(navController: NavHostController) {
 
     val configuration = LocalConfiguration.current
 
     when (configuration.orientation) {
         Configuration.ORIENTATION_LANDSCAPE -> {
-            HorizontalScreen()
+            HorizontalScreen(navController = navController)
         }
 
         else -> {
-            VerticalScreen()
+            VerticalScreen(navController = navController)
 
         }
     }
@@ -39,7 +41,7 @@ fun PlayJuegos() {
 }
 
 @Composable
-fun VerticalScreen(modifier: Modifier = Modifier) {
+fun VerticalScreen(modifier: Modifier = Modifier, navController: NavHostController) {
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -66,7 +68,9 @@ fun VerticalScreen(modifier: Modifier = Modifier) {
         }
         Button(
             modifier = modifier.width(220.dp),
-            onClick = { /*TODO*/ },
+            onClick = {
+                navController.navigate("NewPlayer")
+            },
         ) {
             Text(
                 text = stringResource(id = R.string.new_player),
@@ -98,7 +102,7 @@ fun VerticalScreen(modifier: Modifier = Modifier) {
 
 
 @Composable
-fun HorizontalScreen(modifier: Modifier = Modifier) {
+fun HorizontalScreen(modifier: Modifier = Modifier, navController: NavHostController) {
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -127,7 +131,9 @@ fun HorizontalScreen(modifier: Modifier = Modifier) {
             Spacer(modifier = modifier.width(20.dp))
             Button(
                 modifier = modifier.width(220.dp),
-                onClick = { /*TODO*/ },
+                onClick = {
+                          navController.navigate("NewPlayer")
+                },
             ) {
                 Text(
                     text = stringResource(id = R.string.new_player),
@@ -138,6 +144,7 @@ fun HorizontalScreen(modifier: Modifier = Modifier) {
             }
         }
 
+        Spacer(modifier = modifier.height(20.dp))
 
         Row {
             Button(

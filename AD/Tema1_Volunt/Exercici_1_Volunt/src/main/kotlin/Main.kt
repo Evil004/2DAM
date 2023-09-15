@@ -1,6 +1,6 @@
-import Utilities.pauseAndClear
 import java.io.File
 import java.lang.NumberFormatException
+import java.util.*
 
 
 var actualDir: File = File.listRoots()[0]
@@ -8,6 +8,7 @@ var actualDir: File = File.listRoots()[0]
 fun main (args: Array<String>) {
     mainLoop()
 }
+
 fun mainLoop() {
     var input: String;
     var flag = true;
@@ -65,21 +66,40 @@ fun printUI(elementsInPath: Array<File>) {
 
         val file: File = elementsInPath[i];
 
-        println(getDirLine(file, i))
+        println(getDirLineVolunt(file, i))
     }
 
     println("\nIntroduce un numero (-1 para salir)")
 }
 
+fun getDirLineVolunt(file: File, i: Int): String {
+    var fileString = "%-5s".format("${i + 1}.")
 
-fun getDirLine(file: File, i: Int): String {
-    var fileString = "%-7s".format("${i + 1}.") + "./${file.name}"
-
-    if (file.isFile) {
-        fileString = "%-25s".format(fileString) + file.length()
-    } else {
-        fileString = "%-25s".format(fileString) + "<direcori>"
+    fileString += when (file.isDirectory){
+        true -> "d"
+        false -> "-"
     }
+
+    fileString += when (file.canRead()){
+        true -> "r"
+        false -> "-"
+    }
+
+    fileString += when (file.canWrite()){
+        true -> "w"
+        false -> "-"
+    }
+
+    fileString += when (file.canExecute()){
+        true -> "x"
+        false -> "-"
+    }
+
+    fileString += "%10s".format(file.length())
+
+    fileString += "   ${Date(file.lastModified())}"
+
+    fileString += "   ${file.name}"
     return fileString;
 }
 
@@ -101,4 +121,3 @@ fun isInt(s: String): Boolean {
         false
     }
 }
-
