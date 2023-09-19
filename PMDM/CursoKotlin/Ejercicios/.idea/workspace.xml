@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/src/main/kotlin/Exercici_2_2_Pantalla.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E2/tests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/src/main/kotlin/Exercici_2_3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E3/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf3/Ej1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf3/Ej2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf3/Ej3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf4/Ej1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/Penyagolosa_o.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/src/main/kotlin/FitxerImatge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/src/main/kotlin/FitxerImatge.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/ui/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/ui/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6gsskgef" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2VcvjdajX8WKML3slKItBx5cPmm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/evil/Documents/2DAM/PMDM/CursoKotlin/Ejercicios",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/pdf4" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="" />
+      <created>1695148318776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695148318776</updated>
+      <workItem from="1695148319990" duration="1321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

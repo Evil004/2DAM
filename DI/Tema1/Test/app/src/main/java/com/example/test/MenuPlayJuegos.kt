@@ -15,9 +15,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import com.example.test.ui.theme.CaskaydiaCoveNerdFont
 import com.example.test.ui.theme.Gray90
 import com.example.test.ui.theme.White
 
@@ -51,7 +53,8 @@ fun VerticalScreen(modifier: Modifier = Modifier, navController: NavHostControll
             text = stringResource(id = R.string.title),
             modifier = modifier,
             color = Gray90,
-            fontSize = 50.sp
+            fontSize = 50.sp,
+            fontFamily = CaskaydiaCoveNerdFont
         )
 
         Spacer(modifier = modifier.height(50.dp))
@@ -112,7 +115,8 @@ fun HorizontalScreen(modifier: Modifier = Modifier, navController: NavHostContro
             text = stringResource(id = R.string.title),
             modifier = modifier,
             color = Gray90,
-            fontSize = 50.sp
+            fontSize = 50.sp,
+            fontFamily = CaskaydiaCoveNerdFont
         )
 
         Spacer(modifier = modifier.height(50.dp))

@@ -20,17 +20,17 @@ class MainActivity : ComponentActivity() {
         setContent {
             TestTheme {
                 // A surface container using the 'background' color from the theme
-                Surface (
+                Surface(
                     modifier = Modifier.fillMaxSize(),
                 ) {
                     val navController = rememberNavController()
-                    
-                    NavHost(navController = navController, startDestination = "Portada"){
+
+                    NavHost(navController = navController, startDestination = "Portada") {
                         composable("Portada") {
                             MenuPlayJuegos(navController)
                         }
 
-                        composable("NewPlayer"){
+                        composable("NewPlayer") {
                             MenuNewPlayer()
                         }
                     }

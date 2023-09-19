@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">Test</string>
-    <string name="title">Play Juegos</string>
+    <string name="title">Play Juegos </string>
     <string name="play">Play</string>
     <string name="new_player">New Player</string>
     <string name="preferences">Preferences</string>
     <string name="about">About</string>
+    <string name="name"> Name </string>
+    <string name="surname"> Apellidos </string>
+    <string name="nickname"> Nickname </string>
+    <string name="phone"> Teléfono </string>
+    <string name="email"> Email </string>
+    <string name="send"> Enviar </string>
+
+    <string name="name_error"> El nombre es obligatorio </string>
+    <string name="nickname_error"> El nombre de usuario es obligatorio </string>
+
+
+
 </resources>

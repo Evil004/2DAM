@@ -48,7 +48,7 @@ class FitxerImatge(fEnt: File) {
     }
 
     fun obscureByte(byte: Byte): Byte {
-        return (byte.toInt() / 2).coerceIn(Byte.MIN_VALUE.toInt(), Byte.MAX_VALUE.toInt()).toByte();
+        return (((byte+ Byte.MAX_VALUE) / 2)-Byte.MAX_VALUE).toByte();
     }
 
     fun transformaBlancNegre() {
