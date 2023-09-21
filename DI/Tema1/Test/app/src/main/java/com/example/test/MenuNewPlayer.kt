@@ -1,5 +1,6 @@
 package com.example.test
 
+import android.graphics.Color
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -39,7 +40,8 @@ fun MenuNewPlayer() {
     var nameError by remember { mutableStateOf(false) }
     val nameMessage = if (nameError) stringResource(id = R.string.name_error) else "* Obligario"
     var nicknameError by remember { mutableStateOf(false) }
-    val nicknameMessage = if (nicknameError) stringResource(id = R.string.nickname_error) else "* Obligario"
+    val nicknameMessage =
+        if (nicknameError) stringResource(id = R.string.nickname_error) else "* Obligario"
 
     Column(
         modifier = Modifier.fillMaxSize(),
@@ -70,7 +72,12 @@ fun MenuNewPlayer() {
                     onValueChange = { nombre = it },
                     label = { Text(text = stringResource(R.string.name)) })
 
-                Text(modifier = Modifier.height(30.dp), text = nameMessage)
+
+                Text(
+                    modifier = Modifier.height(30.dp),
+                    text = nameMessage,
+                    color = if (nameError) colorScheme.tertiary else colorScheme.onSurface
+                )
 
                 TextField(colors = TextFieldDefaults.outlinedTextFieldColors(
                     focusedBorderColor = colorScheme.tertiary,
@@ -91,7 +98,11 @@ fun MenuNewPlayer() {
                     value = nickname,
                     onValueChange = { nickname = it },
                     label = { Text(text = stringResource(R.string.nickname)) })
-                Text(modifier = Modifier.height(30.dp), text = nicknameMessage)
+                Text(
+                    modifier = Modifier.height(30.dp),
+                    text = nicknameMessage,
+                    color = if (nicknameError) colorScheme.tertiary else colorScheme.onSurface
+                )
 
 
             }

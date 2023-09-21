@@ -1,10 +1,15 @@
 public class Bloques {
     public static void main(String[] args) {
-        int hebras = 4;
-        int n = 15;
-        int hebra = 2;
+        int hebras = 5;
+        int n = 24;
+        int hebra = 4;
+        repartoBloques2(hebras, n, 0);
+        repartoBloques2(hebras, n, 1);
+        repartoBloques2(hebras, n, 2);
 
-        repartoBloques(hebras, n, hebra);
+        repartoBloques2(hebras, n, 3);
+        repartoBloques2(hebras, n, 4);
+
     }
 
     private static void repartoBloques(int hebras, int n, int hebra) {
@@ -18,5 +23,16 @@ public class Bloques {
             }
             System.out.printf("%-20s|\n", i);
         }
+    }
+
+    private static void repartoBloques2(int hebras, int n, int hebra){
+        int Tam = (n+hebras-1)/hebras;
+        int ini =  hebra * Tam;
+        int fin = Math.min(n,(hebra+1)*Tam);
+        for ( int i = ini ; i < fin; i++){
+            System.out.printf("%-20s|\n", i);
+
+        }
+
     }
 }
