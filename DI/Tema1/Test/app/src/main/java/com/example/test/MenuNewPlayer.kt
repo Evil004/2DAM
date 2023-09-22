@@ -20,6 +20,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -31,15 +32,15 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun MenuNewPlayer() {
 
-    var nombre by remember { mutableStateOf("") }
-    var apellido by remember { mutableStateOf("") }
-    var nickname by remember { mutableStateOf("") }
-    var telefono by remember { mutableStateOf("") }
-    var email by remember { mutableStateOf("") }
+    var nombre by rememberSaveable { mutableStateOf("") }
+    var apellido by rememberSaveable { mutableStateOf("") }
+    var nickname by rememberSaveable { mutableStateOf("") }
+    var telefono by rememberSaveable { mutableStateOf("") }
+    var email by rememberSaveable { mutableStateOf("") }
 
-    var nameError by remember { mutableStateOf(false) }
+    var nameError by rememberSaveable { mutableStateOf(false) }
     val nameMessage = if (nameError) stringResource(id = R.string.name_error) else "* Obligario"
-    var nicknameError by remember { mutableStateOf(false) }
+    var nicknameError by rememberSaveable { mutableStateOf(false) }
     val nicknameMessage =
         if (nicknameError) stringResource(id = R.string.nickname_error) else "* Obligario"
 

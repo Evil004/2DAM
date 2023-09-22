@@ -5,10 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/RandomRead.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/RandomRead3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Read.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Serializable/Empleat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Serializable/GurdadoSerializable1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Serializable/Lectura.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Write.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Write2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/Write3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/Ejemplos/src/main/kotlin/randomRead2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/Rutes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E1/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/Rutes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/Rutes.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/Coordenades.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/LlegirRutesObj.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/PassarRutesSerialObj.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/PuntGeo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/Ruta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pdf8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ING/T8/Ej70-72" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ING/T8/Ej70-72" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Apuntes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Apuntes/entrada_salida.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/entrada_salida.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf3/Ej1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf3/Ej2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf3/Ej3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf4/Ej1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pdf4.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +95,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -61,6 +132,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pdf4" />
     </key>
   </component>
@@ -75,10 +147,27 @@
       <workItem from="1695148319990" duration="1321000" />
       <workItem from="1695216153544" duration="1202000" />
       <workItem from="1695221772400" duration="100000" />
+      <workItem from="1695316766162" duration="5558000" />
+      <workItem from="1695402569890" duration="5996000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/pdf4.kt</url>
+          <line>84</line>
+          <properties method="calculatePerimeter">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

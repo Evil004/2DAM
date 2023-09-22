@@ -33,6 +33,10 @@ class MainActivity : ComponentActivity() {
                         composable("NewPlayer") {
                             MenuNewPlayer()
                         }
+
+                        composable("Preferences") {
+                            ScreenPreferences()
+                        }
                     }
 
                 }
