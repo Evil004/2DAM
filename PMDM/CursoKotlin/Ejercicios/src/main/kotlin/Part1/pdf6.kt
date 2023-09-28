@@ -1,3 +1,7 @@
+package Part1
+
+import askForInt
+
 fun main(args: Array<String>) {
     problema1()
     ejercicio2()

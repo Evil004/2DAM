@@ -10,14 +10,23 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Done
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.FloatingActionButtonDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.RadioButton
+import androidx.compose.material3.SelectableChipColors
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -30,14 +39,19 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ScreenPreferences() {
     var estadoRadio by rememberSaveable { mutableStateOf("") }
     var context = LocalContext.current
 
     var selection by rememberSaveable { mutableStateOf(5f) }
+    var estadoChip by rememberSaveable { mutableStateOf("") }
 
-    Column(modifier = Modifier.fillMaxSize()) {
+
+    Column(modifier = Modifier
+        .fillMaxSize()
+        .verticalScroll(rememberScrollState())) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
             Text(text = "Seleccione una opcion")
 
@@ -47,13 +61,130 @@ fun ScreenPreferences() {
             estadoRadio = it
         })
 
-        Row(modifier = Modifier.fillMaxSize(), horizontalArrangement = Arrangement.Center) {
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {
             CreateSlider(selection) { selection = it }
 
         }
 
-    }
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(10.dp), horizontalArrangement = Arrangement.Center
+        ) {
 
+            FilterChip(
+                onClick = {
+                    estadoChip = "XBOX"; Toast.makeText(
+                    context,
+                    "Has seleccionado: $estadoChip",
+                    Toast.LENGTH_LONG
+                ).show()
+                },
+                label = { Text("XBOX") },
+                selected = estadoChip == "XBOX",
+                colors = FilterChipDefaults.filterChipColors(
+                    containerColor = colorScheme.primary,
+                    labelColor = colorScheme.onPrimary
+                ),
+                leadingIcon = if (estadoChip == "XBOX") {
+                    {
+                        Icon(
+                            imageVector = Icons.Filled.Done,
+                            contentDescription = "Done icon",
+                            modifier = Modifier.size(FilterChipDefaults.IconSize)
+                        )
+                    }
+                } else {
+                    null
+                },
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+
+            FilterChip(
+                onClick = {
+                    estadoChip = "PC"; Toast.makeText(
+                    context,
+                    "Has seleccionado: $estadoChip",
+                    Toast.LENGTH_LONG
+                ).show()
+                },
+                label = { Text("PC") },
+                colors = FilterChipDefaults.filterChipColors(
+                    containerColor = colorScheme.primary,
+                    labelColor = colorScheme.onPrimary
+                ),
+                selected = estadoChip == "PC",
+                leadingIcon = if (estadoChip == "PC") {
+                    {
+                        Icon(
+                            imageVector = Icons.Filled.Done,
+                            contentDescription = "Done icon",
+                            modifier = Modifier.size(FilterChipDefaults.IconSize)
+                        )
+                    }
+                } else {
+                    null
+                },
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+
+            FilterChip(
+                onClick = {
+                    estadoChip = "PS5"; Toast.makeText(
+                    context,
+                    "Has seleccionado: $estadoChip",
+                    Toast.LENGTH_LONG
+                ).show()
+                },
+                label = { Text("PS5") },
+                colors = FilterChipDefaults.filterChipColors(
+                    containerColor = colorScheme.primary,
+                    labelColor = colorScheme.onPrimary
+                ),
+                selected = estadoChip == "PS5",
+                leadingIcon = if (estadoChip == "PS5") {
+                    {
+                        Icon(
+                            imageVector = Icons.Filled.Done,
+                            contentDescription = "Done icon",
+                            modifier = Modifier.size(FilterChipDefaults.IconSize)
+                        )
+                    }
+                } else {
+                    null
+                },
+            )
+            Spacer(modifier = Modifier.width(10.dp))
+
+            FilterChip(
+                onClick = {
+                    estadoChip = "Switch"; Toast.makeText(
+                    context,
+                    "Has seleccionado: $estadoChip",
+                    Toast.LENGTH_LONG
+                ).show()
+                },
+                label = { Text("Switch") },
+                colors = FilterChipDefaults.filterChipColors(
+                    containerColor = colorScheme.primary,
+                    labelColor = colorScheme.onPrimary
+                ),
+                selected = estadoChip == "Switch",
+                leadingIcon = if (estadoChip == "Switch") {
+                    {
+                        Icon(
+                            imageVector = Icons.Filled.Done,
+                            contentDescription = "Done icon",
+                            modifier = Modifier.size(FilterChipDefaults.IconSize)
+                        )
+                    }
+                } else {
+                    null
+                },
+            )
+        }
+
+    }
 
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.BottomEnd) {
         FloatingActionButton(
@@ -70,8 +201,6 @@ fun ScreenPreferences() {
             Icon(Icons.Filled.Check, "")
         }
     }
-
-
 }
 
 @Composable

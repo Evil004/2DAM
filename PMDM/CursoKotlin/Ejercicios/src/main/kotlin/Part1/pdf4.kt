@@ -1,4 +1,7 @@
-import java.util.Scanner
+package Part1
+
+import askForFloat
+import askForInt
 
 
 fun main() {

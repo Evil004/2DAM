@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
                     val navController = rememberNavController()
 
                     NavHost(navController = navController, startDestination = "Portada") {
+
                         composable("Portada") {
                             MenuPlayJuegos(navController)
                         }
@@ -36,6 +37,10 @@ class MainActivity : ComponentActivity() {
 
                         composable("Preferences") {
                             ScreenPreferences()
+                        }
+
+                        composable("Play") {
+                            MenuPlay()
                         }
                     }
 

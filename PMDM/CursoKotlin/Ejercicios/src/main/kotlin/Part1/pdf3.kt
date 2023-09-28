@@ -1,3 +1,5 @@
+package Part1
+
 fun main(args: Array<String>) {
     sumaDeNums(3, 4)
     calculosCuadrado(50)

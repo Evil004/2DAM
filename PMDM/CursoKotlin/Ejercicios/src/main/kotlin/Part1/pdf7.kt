@@ -1,3 +1,8 @@
+package Part1
+
+import askForInt
+import askForInts
+
 private const val MARKS_TO_ASK = 3
 private const val MAX_DIGITS = 3
 
@@ -72,15 +77,6 @@ private fun problema1() {
     println("Tienes un $avgMark de media, el mensaje es: $message")
 }
 
-private fun askForInts(numsToAsk: Int): ArrayList<Int> {
-    var marks = ArrayList<Int>()
-
-    for (i in 1..numsToAsk) {
-        val mark = askForInt("Introduce el numero Nº$i: ")
-        marks.add(mark)
-    }
-    return marks
-}
 
 private fun getMessage(avgMark: Int): String {
     val message = if (avgMark >= 7) {

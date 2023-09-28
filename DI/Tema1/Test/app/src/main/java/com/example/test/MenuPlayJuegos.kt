@@ -66,7 +66,7 @@ fun VerticalScreen(modifier: Modifier = Modifier, navController: NavHostControll
 
         Button(
             modifier = modifier.width(220.dp),
-            onClick = { /*TODO*/ },
+            onClick = { navController.navigate("Play") },
         ) {
 
             Text(
@@ -130,7 +130,7 @@ fun HorizontalScreen(modifier: Modifier = Modifier, navController: NavHostContro
         Row {
             Button(
                 modifier = modifier.width(220.dp),
-                onClick = { /*TODO*/ },
+                onClick = { navController.navigate("Play") },
             ) {
 
                 Text(

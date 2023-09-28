@@ -1,3 +1,8 @@
+package Part1
+
+import askForFloat
+import askForInt
+
 private const val MIN_FOR_TAXES = 3000
 
 
