@@ -5,28 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AD/Practica1Ficheros/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Practica1Ficheros/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Practica1Ficheros/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Practica1Ficheros/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/CheckInfo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlay.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema1/src/main/kotlin/Exercici_1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema1/src/main/kotlin/Exercici_1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema1/src/main/kotlin/Utilities/Utilities.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/Finestra.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/PassarRutesObjXML.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/VisRutesXML.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/Empleats.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Empleat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/Pdf11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf10.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/XML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/XML.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/coches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/coches.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/Preferemces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/Preferemces.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ING/T8/Ej73" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ING/T8/Ej73" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Apuntes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Apuntes/condicionales.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/condicionales.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Apuntes/variables.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/variables.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf6.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf7.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pdf8.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,25 +76,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/evil/Documents/2DAM/AD/Tema1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/evil/Documents/2DAM/PSP/A211",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pdf4" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Part2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,6 +115,8 @@
       <workItem from="1695402569890" duration="6201000" />
       <workItem from="1695733664934" duration="41000" />
       <workItem from="1695832239141" duration="8000" />
+      <workItem from="1695921098355" duration="6118000" />
+      <workItem from="1696004433425" duration="21000" />
     </task>
     <servers />
   </component>
