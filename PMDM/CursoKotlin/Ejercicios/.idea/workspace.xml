@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/Finestra.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/PassarRutesObjXML.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/T3E2_Serializable/src/main/kotlin/VisRutesXML.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/Empleats.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Empleat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/Pdf11.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/XML.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/XML.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/coches.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/coches.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/Preferemces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/Preferemces.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ING/T8/Ej73" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ING/T8/Ej73" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Apuntes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Apuntes/condicionales.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/condicionales.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Apuntes/variables.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/variables.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -76,21 +60,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/evil/Documents/2DAM/PSP/A211",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/evil/Documents/2DAM/PMDM/CursoKotlin/Ejercicios&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
@@ -117,6 +102,8 @@
       <workItem from="1695832239141" duration="8000" />
       <workItem from="1695921098355" duration="6118000" />
       <workItem from="1696004433425" duration="21000" />
+      <workItem from="1696007345986" duration="6021000" />
+      <workItem from="1696267354089" duration="71000" />
     </task>
     <servers />
   </component>
@@ -129,7 +116,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/src/main/kotlin/pdf4.kt</url>
           <line>84</line>
-          <properties method="calculatePerimeter">
+          <properties>
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -137,5 +124,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
