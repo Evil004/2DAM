@@ -1,3 +1,9 @@
+fun askForString(message: String): String {
+
+    println(message)
+    return readln()
+}
+
 fun askForInt(message: String): Int {
 
     println(message)

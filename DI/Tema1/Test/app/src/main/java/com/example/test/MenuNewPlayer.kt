@@ -2,17 +2,25 @@ package com.example.test
 
 import android.graphics.Color
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme.colorScheme
+import androidx.compose.material3.MenuDefaults
+import androidx.compose.material3.MenuItemColors
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
@@ -26,7 +34,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.DpOffset
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.PopupProperties
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -138,15 +148,66 @@ fun MenuNewPlayer() {
             Spacer(modifier = Modifier.width(20.dp))
 
 
-            TextField(colors = TextFieldDefaults.outlinedTextFieldColors(
+            var selectedText by remember { mutableStateOf("") }
+            var expanded by remember { mutableStateOf(false) }
+            val series = listOf(
+                "662 85 11 23",
+                "654 14 12 36",
+                "942 16 75 12",
+                "621 12 05 29",
+                "602 72 89 12"
+            )
+
+            /*TextField(colors = TextFieldDefaults.outlinedTextFieldColors(
                 focusedBorderColor = colorScheme.tertiary,
-                containerColor = colorScheme.primaryContainer
-            ),
+                containerColor = colorScheme.primaryContainer,
+                ),
                 shape = RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp),
                 value = telefono,
                 onValueChange = { telefono = it },
-                label = { Text(text = stringResource(R.string.phone)) })
+                label = { Text(text = stringResource(R.string.phone))
+                }
+            )*/
 
+            OutlinedTextField(value = selectedText, onValueChange = {
+                selectedText = it
+            },
+                colors = TextFieldDefaults.outlinedTextFieldColors(
+                    focusedBorderColor = colorScheme.tertiary,
+                    containerColor = colorScheme.primaryContainer,
+                ),
+                shape = RoundedCornerShape(topStart = 10.dp, topEnd = 10.dp),
+                enabled = false,
+                label = { Text(text = stringResource(R.string.phone)) },
+                readOnly = true,
+
+                modifier = Modifier
+                    .clickable { expanded = true }
+            )
+            DropdownMenu(
+
+                expanded = expanded,
+                onDismissRequest = { expanded = false },
+                modifier = Modifier.width(200.dp)
+                    .background(color = colorScheme.primaryContainer),
+                offset = DpOffset(x = 90.dp, y = 0.dp)
+
+            ) {
+                series.forEach { serie ->
+                    DropdownMenuItem(
+                        onClick = {
+                            expanded = false
+                            selectedText = serie
+                        },
+                        text = { Text(text = serie) },
+                        colors = MenuDefaults.itemColors(
+                            textColor = colorScheme.onPrimaryContainer,
+
+                            ),
+                    )
+
+                }
+            }
         }
 
         Row(

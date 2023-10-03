@@ -12,6 +12,10 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.json:json:20211205")
+    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+
+
 }
 
 tasks.test {

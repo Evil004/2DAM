@@ -98,7 +98,7 @@ fun VerticalScreen(modifier: Modifier = Modifier, navController: NavHostControll
         }
         Button(
             modifier = modifier.width(220.dp),
-            onClick = { /*TODO*/ },
+            onClick = { navController.navigate("About") },
         ) {
             Text(
                 text = stringResource(id = R.string.about), color = White, fontSize = 20.sp
@@ -172,7 +172,7 @@ fun HorizontalScreen(modifier: Modifier = Modifier, navController: NavHostContro
 
             Button(
                 modifier = modifier.width(220.dp),
-                onClick = { /*TODO*/ },
+                onClick = { navController.navigate("About") },
             ) {
                 Text(
                     text = stringResource(id = R.string.about), color = White, fontSize = 20.sp

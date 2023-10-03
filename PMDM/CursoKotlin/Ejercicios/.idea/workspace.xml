@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/Bicicas.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/Empresa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/Rutes.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/Coordenades.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/PassarRutesObjJSON.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/PuntGeo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/Ruta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empleat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empleats.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empresa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Estacio.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Estacions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/About.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/UserDataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf14.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf15.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf16.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +58,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -104,6 +124,7 @@
       <workItem from="1696004433425" duration="21000" />
       <workItem from="1696007345986" duration="6021000" />
       <workItem from="1696267354089" duration="71000" />
+      <workItem from="1696356217508" duration="2673000" />
     </task>
     <servers />
   </component>

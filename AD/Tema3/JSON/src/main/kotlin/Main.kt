@@ -1,30 +1,16 @@
-import org.json.JSONObject
-import org.json.JSONArray
-import java.io.FileWriter
+import com.squareup.moshi.*
+import java.io.File
 
-fun main(args: Array<String>) {
-    val noms = arrayOf("Andreu", "Bernat", "Clàudia", "Damià")
-    val departaments = arrayOf( 10, 20, 10, 10 )
-    val edats = arrayOf( 32, 28, 26, 40 )
-    val sous = arrayOf( 1000.0, 1200.0, 1100.0, 1500.0)
+fun main (args: Array<String>){
+    val json = File("Bicicas.json").readText()
 
-    val arrel = JSONObject()
-    val empresa = JSONObject()
-    arrel.put("empresa", empresa)
-    val empleats = JSONArray()
-    empresa.put("empleat", empleats)
+    val moshi = Moshi.Builder().add(KotlinJsonAdapterFactory()).build()
+    val llistaTipus = Types.newParameterizedType(List::class.java, Estacions::class.java)
+    val adapter: JsonAdapter<List<Estacions>> = moshi.adapter(llistaTipus)
+    val bicicas = adapter.fromJson(json)
 
-    for (i in 0..3){
-        val emp = JSONObject()
-        emp.put("num", i + 1)
-        emp.put("nom", noms[i])
-        emp.put("departament", departaments[i])
-        emp.put("edat", edats[i])
-        emp.put("sou", sous[i])
-        empleats.put(emp)
-    }
-
-    val f = FileWriter("Empleats.json")
-    f.write(arrel.toString(4))
-    f.close()
+    val estacions = bicicas!!.get(0).ocupacion
+    println("Hi ha " + estacions.size + " estacions:")
+    for (e in estacions)
+        println("" + e.id + ": " + e.punto + " (" + e.ocupados + "/" + e.puestos + ")")
 }
