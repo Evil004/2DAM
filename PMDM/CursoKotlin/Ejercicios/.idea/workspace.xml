@@ -5,32 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/Bicicas.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/Empresa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/Rutes.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/Coordenades.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/PassarRutesObjJSON.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/PuntGeo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/Ruta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empleat.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empleats.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empresa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Estacio.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Estacions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/About.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/UserDataClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf14.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf15.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf16.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuNewPlayer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/app/src/main/java/com/example/test/MenuPlayJuegos.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../DI/Tema1/Test/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema1/Test/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Utilities.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Exemple_3_4_4_XMLCrearEmpleats.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeComments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf16.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf17.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf18.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf19.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf20.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf22.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf23.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf24.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf25.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf26.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/CreacionHebras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/Cuentaincrementos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/HebraVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/ObjetosCompartidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/C211/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Empleat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Serializable/Empleat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Apuntes/conceptos.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/conceptos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/Figure.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/Figure.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/Pdf11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/Pdf11.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/Triangle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf10.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf12.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf13.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf14.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf15.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf16.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf9.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PSP/A211/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PSP/A211/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PSP/A211/src/EjemploCreacion1a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PSP/A211/src/EjemploCreacion1a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +76,8 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -98,6 +115,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/Part1" />
       <recent name="$PROJECT_DIR$/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pdf4" />
     </key>
@@ -125,6 +143,13 @@
       <workItem from="1696007345986" duration="6021000" />
       <workItem from="1696267354089" duration="71000" />
       <workItem from="1696356217508" duration="2673000" />
+      <workItem from="1696431805837" duration="46000" />
+      <workItem from="1696526276490" duration="5560000" />
+      <workItem from="1696609534305" duration="174000" />
+      <workItem from="1696612616616" duration="5750000" />
+      <workItem from="1696724230660" duration="10000" />
+      <workItem from="1696954980028" duration="14000" />
+      <workItem from="1696961202150" duration="2860000" />
     </task>
     <servers />
   </component>

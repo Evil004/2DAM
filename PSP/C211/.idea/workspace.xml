@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13bf2282-624d-4140-81a9-24a91a5216ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AD/Tema3/XML/src/Exemple_3_4_4_XMLCrearEmpleats.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf17.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf18.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf19.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf20.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf21.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf22.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A211/src/CreacionHebras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A211/src/Cuentaincrementos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A211/src/HebraVector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A211/src/ObjetosCompartidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AD/Tema3/XML/src/Empleat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AD/Tema3/XML/src/Serializable/Empleat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AD/Tema3/XML/src/Main4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../AD/Tema3/XML/src/Main4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PMDM/Apuntes/conceptos.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../PMDM/Apuntes/conceptos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf16.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PMDM/CursoKotlin/Ejercicios/src/main/kotlin/Part2/pdf16.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A211/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A211/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A211/src/EjemploCreacion1a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A211/src/EjemploCreacion1a.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="a9bk3agk" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2WOhmMcKu5xK6P7GD0jIPP4KKgL" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/evil/Documents/2DAM/PSP/Bloque2.2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13bf2282-624d-4140-81a9-24a91a5216ac" name="Changes" comment="" />
+      <created>1696609692032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696609692032</updated>
+      <workItem from="1696609693029" duration="306000" />
+      <workItem from="1696611456868" duration="122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

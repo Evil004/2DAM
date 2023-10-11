@@ -15,7 +15,7 @@ class Hilo2 implements Runnable {
 }
 public class EjemploCreacion1a {
     public static void main(String[] args) {
-        Thread t1 = new Thread( new Hilo1());
+        Thread t1 = new Thread( new Thread());
         Thread t2 = new Thread( new Hilo2());
 
         t1.start();
