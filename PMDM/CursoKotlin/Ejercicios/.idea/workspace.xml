@@ -5,49 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f80b521c-bdba-46fe-af29-633df88522c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Exemple_3_4_4_XMLCrearEmpleats.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeComments.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/res/drawable/images6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf16.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf17.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf18.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf19.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf20.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf21.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf22.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf23.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf24.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf25.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf26.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/CreacionHebras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/Cuentaincrementos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/HebraVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../PSP/A211/src/ObjetosCompartidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../PSP/C211/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Empleat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Serializable/Empleat.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Main4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Apuntes/conceptos.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Apuntes/conceptos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/ApuntesExamen/src/main/kotlin/Examen/Ejercicio1/Ejercicio1_ex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Examen1/datos.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Examen1/datos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Examen1/src/main/kotlin/Ejercicio2/Ejercicio2_ex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Examen1/src/main/kotlin/Ejercicio3/Ejercicio3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Examen1/src/main/kotlin/Ejercicio4/Ejercicio4_ex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Examen1/variacionPoblacional.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema4/src/Ejemplos/ConexionBasica/Exemple_4_1_ConnexioPostgreSQL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema4/src/Ejemplos/ConexionBasica/Exemple_4_2_ConnexioMySQL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema4/src/Ejemplos/ConexionBasica/Exemple_4_3_ConnexioSQLite.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema4/src/Ejemplos/Ejemplos/Exemple_4_21_EmpleatsCrearTaula.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema4/src/Ejemplos/PeticionesBasicas/Exemple_4_12_consultaPostgreSQL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../AD/Tema4/src/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/ElSol/app/src/main/java/com/oscar/elsol/CardObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/ElSol/app/src/main/java/com/oscar/elsol/MainApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DI/Tema4/ElSol/app/src/main/res/drawable/solar_full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf27.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf28.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf29.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf30.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf31.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf32.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf33.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf34.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf35.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/Bloque2_2/src/CalculoPrimosVector_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../PSP/Bloque2_2/src/MiHebraCiclica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema2/T2E1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/Coordenades.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/PassarRutesObjJSON.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/PuntGeo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Ej3_5/Ruta.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empleat.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empleats.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Empresa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Estacio.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Estacions.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/JSON/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/Practica1JSON-AD" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AD/Tema3/Practica1JSON-AD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AD/Tema3/XML/src/Archivador.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeComments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeComments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/Figure.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/Figure.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/Pdf11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/Pdf11.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/Triangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/Triangle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf12.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf13.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf14.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf15.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf16.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part1/pdf9.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PSP/A211/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PSP/A211/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../PSP/A211/src/EjemploCreacion1a.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PSP/A211/src/EjemploCreacion1a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf26.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Part2/pdf26.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PSP/Test/src/Bloques.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PSP/Test/src/Bloques.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +79,8 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -97,22 +100,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/evil/Documents/2DAM/PMDM/CursoKotlin/Ejercicios&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/evil/Documents/2DAM/PSP/Bloque2_3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/Part1" />
@@ -150,6 +153,13 @@
       <workItem from="1696724230660" duration="10000" />
       <workItem from="1696954980028" duration="14000" />
       <workItem from="1696961202150" duration="2860000" />
+      <workItem from="1697034525026" duration="30000" />
+      <workItem from="1697568104710" duration="698000" />
+      <workItem from="1697641604207" duration="11000" />
+      <workItem from="1697735448190" duration="2172000" />
+      <workItem from="1697737628108" duration="1934000" />
+      <workItem from="1697739569927" duration="1746000" />
+      <workItem from="1697818598847" duration="79000" />
     </task>
     <servers />
   </component>

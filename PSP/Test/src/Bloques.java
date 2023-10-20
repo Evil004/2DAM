@@ -26,6 +26,11 @@ public class Bloques {
     }
 
     private static void repartoBloques2(int hebras, int n, int hebra){
+
+        int hebras = 5;
+        int n = 24;
+        int hebra = 4;
+
         int Tam = (n+hebras-1)/hebras;
         int ini =  hebra * Tam;
         int fin = Math.min(n,(hebra+1)*Tam);

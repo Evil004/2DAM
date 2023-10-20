@@ -23,6 +23,10 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.MaterialTheme.colorScheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
@@ -54,7 +58,8 @@ fun GenerateCard(entry: CoffeShop, navController: NavHostController) {
     Card(
         modifier = Modifier
             .fillMaxSize()
-            .padding(10.dp).clickable { navController.navigate("Comments/${entry.name}") }, shape = MaterialTheme.shapes.medium,
+            .padding(10.dp)
+            .clickable { navController.navigate("Comments/${entry.name}") }, shape = MaterialTheme.shapes.medium,
         elevation= CardDefaults.cardElevation(4.dp),
         colors = CardDefaults.cardColors(
             containerColor = colorScheme.secondary
@@ -79,7 +84,7 @@ fun GenerateCard(entry: CoffeShop, navController: NavHostController) {
 
             Spacer(modifier = Modifier.height(10.dp))
 
-            RatingBar(onClick = {}, stars = 5, rating = 0.0, modifier = Modifier.padding(10.dp))
+            RatingBar(stars = 5, modifier = Modifier.padding(10.dp))
 
             Spacer(
                 modifier = Modifier
@@ -106,14 +111,17 @@ fun GenerateCard(entry: CoffeShop, navController: NavHostController) {
 @Composable
 fun RatingBar(
     modifier: Modifier = Modifier,
-    rating: Double = 5.0,
     stars: Int = 10,
     starsColor: Color = Color.Yellow,
     notSelectedStarsColor: Color = Color.Gray,
-    onClick: (Int) -> Unit
 ) {
-    val filledStars = Math.floor(rating).toInt()
-    val unfilledStars = (stars - Math.ceil(Math.floor(rating))).toInt()
+
+    var rating by remember {
+        mutableStateOf(0.0)
+    };
+
+    val filledStars = Math.floor(rating).toInt();
+    val unfilledStars = (stars - Math.ceil(Math.floor(rating))).toInt();
     Row(modifier = modifier) {
 
         repeat(filledStars) {
@@ -121,7 +129,7 @@ fun RatingBar(
                 contentDescription = null,
                 tint = starsColor,
                 modifier = Modifier
-                    .clickable { onClick(((it + 1).toInt())) }
+                    .clickable { rating = (it+1).toDouble() }
             )
             Spacer(modifier = Modifier.width(20.dp))
 
@@ -134,7 +142,7 @@ fun RatingBar(
                 contentDescription = null,
                 tint = notSelectedStarsColor,
                 modifier = Modifier
-                    .clickable { onClick(((it + rating + 1).toInt())) }
+                    .clickable { rating += (it+1).toDouble() }
             )
             Spacer(modifier = Modifier.width(20.dp))
         }

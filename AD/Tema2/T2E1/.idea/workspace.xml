@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="547cced0-e5fc-434d-a46d-e620682c101c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Tema4/src/main/kotlin/Tema2/E1/FitxerImatge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tema4/src/main/kotlin/Tema2/E1/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tema3/Practica1JSON-AD" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tema3/Practica1JSON-AD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeComments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeComments.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/CoffeShopsMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../DI/Tema4/CoffeShops/app/src/main/java/com/oscar/coffeshops/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../PMDM/CursoKotlin/Ejercicios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PMDM/CursoKotlin/Ejercicios/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +22,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,19 +55,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/evil/Documents/2DAM/AD/Tema2/T2E2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -74,21 +93,11 @@
       <workItem from="1695058104214" duration="4805000" />
       <workItem from="1695140206313" duration="604000" />
       <workItem from="1695733673789" duration="5000" />
+      <workItem from="1697551461725" duration="260000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/FitxerImatge.kt</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

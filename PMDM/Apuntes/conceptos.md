@@ -60,7 +60,7 @@ Son los principios SOLID para Bases de DAtos.
 
 - **C**: Consistency: Dado el mismo escenario una transaccion simpre ha de dar el mismo escenario.
 - **I**: Isolation: Aislamiento: 
-
+- **D**: Durability
 
 
 
